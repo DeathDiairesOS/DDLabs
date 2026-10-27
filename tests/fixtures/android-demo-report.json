@@ -1,0 +1,206 @@
+{
+  "schema": "wifi-scout-phone-report",
+  "schema_version": 1,
+  "source": "android",
+  "mode": "demo",
+  "exported_at": "2026-10-27T09:20:35.738Z",
+  "fresh_at_export": true,
+  "groups": [
+    {
+      "id": "name:Airport Guest",
+      "ssid": "Airport Guest",
+      "security_label": "Settings differ",
+      "signal_label": "Strong signal",
+      "identity_label": "Who runs it: not confirmed",
+      "authorized": false,
+      "conflicted": true,
+      "observations": [
+        {
+          "ssid": "Airport Guest",
+          "bssid": "02:aa:00:00:00:01",
+          "signal_dbm": -49,
+          "frequency_mhz": 2412,
+          "capabilities": "[WPA2-PSK-CCMP][ESS]",
+          "age_millis_at_export": 0,
+          "observed_at": null
+        },
+        {
+          "ssid": "Airport Guest",
+          "bssid": "02:aa:00:00:00:02",
+          "signal_dbm": -39,
+          "frequency_mhz": 2462,
+          "capabilities": "[ESS]",
+          "age_millis_at_export": 0,
+          "observed_at": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "title": "Modern protection is advertised",
+          "explanation": "WPA2 or WPA3 protects the wireless link when correctly negotiated. It does not establish who operates the network."
+        },
+        {
+          "id": "SECURITY_OPEN",
+          "severity": "medium",
+          "title": "An open connection is advertised",
+          "explanation": "The open connection does not encrypt the Wi-Fi link. HTTPS still protects correctly secured website content. A sign-in page does not itself add Wi-Fi encryption."
+        },
+        {
+          "id": "SECURITY_CONFLICT",
+          "severity": "medium",
+          "title": "Same name, different protection",
+          "explanation": "Access points with this name advertise different settings. Reconfiguration, unrelated operators, or copying the name can explain it. Ask the venue what to expect; this scan cannot identify the cause."
+        }
+      ]
+    },
+    {
+      "id": "name:Juniper Café",
+      "ssid": "Juniper Café",
+      "security_label": "Encryption advertised",
+      "signal_label": "Mixed signal strengths",
+      "identity_label": "Who runs it: not confirmed",
+      "authorized": true,
+      "conflicted": false,
+      "observations": [
+        {
+          "ssid": "Juniper Café",
+          "bssid": "02:11:22:33:44:01",
+          "signal_dbm": -54,
+          "frequency_mhz": 5180,
+          "capabilities": "[WPA2-PSK-CCMP][ESS]",
+          "age_millis_at_export": 0,
+          "observed_at": null
+        },
+        {
+          "ssid": "Juniper Café",
+          "bssid": "02:11:22:33:44:02",
+          "signal_dbm": -69,
+          "frequency_mhz": 2437,
+          "capabilities": "[WPA2-PSK-CCMP][ESS]",
+          "age_millis_at_export": 0,
+          "observed_at": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "title": "Modern protection is advertised",
+          "explanation": "WPA2 or WPA3 protects the wireless link when correctly negotiated. It does not establish who operates the network."
+        },
+        {
+          "id": "MULTIPLE_ACCESS_POINTS",
+          "severity": "info",
+          "title": "Several access points share this name",
+          "explanation": "This is normal for larger venues and mesh networks. A shared name does not prove shared ownership, and unavailable settings remain unknown."
+        }
+      ]
+    },
+    {
+      "id": "name:Airport Staff",
+      "ssid": "Airport Staff",
+      "security_label": "Encryption advertised",
+      "signal_label": "Strong signal",
+      "identity_label": "Who runs it: not confirmed",
+      "authorized": false,
+      "conflicted": false,
+      "observations": [
+        {
+          "ssid": "Airport Staff",
+          "bssid": "02:ff:00:00:00:01",
+          "signal_dbm": -38,
+          "frequency_mhz": 5975,
+          "capabilities": "[RSN-SAE-CCMP][ESS]",
+          "age_millis_at_export": 0,
+          "observed_at": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "title": "Modern protection is advertised",
+          "explanation": "WPA2 or WPA3 protects the wireless link when correctly negotiated. It does not establish who operates the network."
+        }
+      ]
+    },
+    {
+      "id": "name:Lounge Guest",
+      "ssid": "Lounge Guest",
+      "security_label": "Unknown \/ incomplete",
+      "signal_label": "Moderate signal",
+      "identity_label": "Who runs it: not confirmed",
+      "authorized": false,
+      "conflicted": false,
+      "observations": [
+        {
+          "ssid": "Lounge Guest",
+          "bssid": "02:cc:00:00:00:01",
+          "signal_dbm": -61,
+          "frequency_mhz": 5220,
+          "capabilities": null,
+          "age_millis_at_export": 0,
+          "observed_at": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "SECURITY_UNKNOWN",
+          "severity": "info",
+          "title": "Some protection details are unavailable",
+          "explanation": "The phone did not provide security settings this version can interpret. Missing information does not mean an attack."
+        }
+      ]
+    },
+    {
+      "id": "name:Old Printer",
+      "ssid": "Old Printer",
+      "security_label": "Older protection",
+      "signal_label": "Moderate signal",
+      "identity_label": "Who runs it: not confirmed",
+      "authorized": false,
+      "conflicted": false,
+      "observations": [
+        {
+          "ssid": "Old Printer",
+          "bssid": "02:dd:00:00:00:01",
+          "signal_dbm": -66,
+          "frequency_mhz": 2437,
+          "capabilities": "[WEP][ESS]",
+          "age_millis_at_export": 0,
+          "observed_at": null
+        }
+      ],
+      "findings": [
+        {
+          "id": "SECURITY_LEGACY",
+          "severity": "high",
+          "title": "Older protection needs attention",
+          "explanation": "WEP and original WPA are outdated. Prefer another network you can use, or your own hotspot. This setting does not establish malicious intent."
+        }
+      ]
+    }
+  ],
+  "recommendation": {
+    "status": "Best observed candidate",
+    "candidate_ssid": "Juniper Café",
+    "candidate_bssid": "02:11:22:33:44:01",
+    "reasons": [
+      "You confirmed permission and access to this network.",
+      "WPA2 advertised; strong signal in this observation.",
+      "Compared advertised protection, then broad signal strength. Neither establishes operator trust or internet speed."
+    ],
+    "explanation": "An option to consider among the Wi-Fi you said you can use. Confirm the name and sign-in instructions with staff."
+  },
+  "limitations": [
+    "Fictional demonstration observations only. This report does not describe nearby Wi-Fi or a live scan.",
+    "This shared report is a snapshot. Conditions and access permissions may have changed since export.",
+    "A scan cannot confirm who runs a network. Names and advertised settings can be copied.",
+    "Signal strength does not measure internet speed, congestion, or reliability.",
+    "Ordinary phone scans cannot observe deauthentication traffic or verify a sign-in page.",
+    "The phone may return cached or incomplete observations. Recommendations require a successful scan and observations no older than 30 seconds.",
+    "WiFi Scout never joins automatically. Confirm the network with the venue, then use Android Wi-Fi settings."
+  ]
+}

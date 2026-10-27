@@ -1,0 +1,22 @@
+{
+  "media": {
+    "duration": 52.64,
+    "width": 1920,
+    "height": 1080,
+    "controls": true
+  },
+  "codec": "H.264",
+  "silent": true,
+  "browser_playback": true,
+  "seek_all_scenes": true,
+  "captions_loaded": 11,
+  "caption_timing_matches": true,
+  "mobile_no_overflow": true,
+  "keyboard_transcript": true,
+  "external_requests": false,
+  "browser_errors": [],
+  "ffmpeg_full_decode": "passed",
+  "gif_frames": 6,
+  "gif_bytes": 509759,
+  "capture_assertions": "capture/capture.json"
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2f492e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="Read a shared WiFi Scout report on your iPhone. Clear concerns first, technical evidence when you want it.">
+  <title>WiFi Scout · iPhone companion</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="shell">
+    <header class="topbar"><a class="brand" href="./" aria-label="WiFi Scout home"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M5 12.3a17.7 17.7 0 0 1 22 0M9 17.3a11.4 11.4 0 0 1 14 0M13 22.1a5 5 0 0 1 6 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="26" r="1.4" fill="currentColor"/></svg><span>WiFi <strong>Scout</strong></span></a><span class="companion-badge">iPhone companion</span></header>
+    <main id="main">
+      <section class="hero"><p class="eyebrow">A little help before you connect</p><h1>A little clarity<br>before you join.</h1><p>Open a shared report. Understand the concerns. Know what to ask before choosing Wi-Fi.</p><div class="capability-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>This companion reads reports.</strong><br>It does not scan nearby Wi-Fi on your iPhone.</p></div></section>
+      <section class="import-panel" aria-labelledby="import-heading"><p class="eyebrow">Start here</p><h2 id="import-heading">Bring a report with you.</h2><p>Choose a JSON report shared from WiFi Scout on Android or the desktop tool.</p><label class="primary-button file-button" for="report-file"><svg class="action-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 15V4m0 0L8 8m4-4 4 4M5 14v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> Open a report <span class="arrow" aria-hidden="true">→</span></label><input class="file-input" id="report-file" type="file" accept=".json,application/json" aria-describedby="file-help"><button id="demo-button" class="secondary-button" type="button">Try an example report</button><p class="field-help" id="file-help">JSON · Up to 1 MiB · Read on this device</p><details class="paste-details"><summary>Paste a report instead</summary><label for="paste-report">Report JSON</label><textarea id="paste-report" spellcheck="false" autocomplete="off" autocapitalize="off" placeholder="Paste the complete WiFi Scout JSON report"></textarea><button id="open-paste" class="secondary-button" type="button">Open pasted report</button></details><p class="privacy-note"><span aria-hidden="true">●</span> Reports stay in memory. Nothing is uploaded or saved.</p></section>
+      <p id="error-message" class="error-message" role="alert" hidden></p><p id="app-status" class="sr-only" role="status" aria-live="polite"></p>
+      <section id="empty-state" class="empty-state"><svg class="empty-symbol" viewBox="0 0 44 44" fill="none" aria-hidden="true"><path d="M14 5h12l8 8v24a2 2 0 0 1-2 2H14a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm12 0v9h8M18 23h10m-10 6h7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><h2>Your report will appear here.</h2><p>Clear explanations first.<br>The technical details are there when you want them.</p></section>
+      <section id="report-results" aria-labelledby="results-heading" hidden>
+        <div class="results-heading"><div><p class="eyebrow">Read the observations</p><h2 id="results-heading" tabindex="-1">Here’s what the report says.</h2></div><button id="clear-report" class="text-button" type="button">Clear report</button></div>
+        <div class="report-context"><span id="report-mode" class="mode-pill"></span><p id="source-note"></p><p id="report-export"></p><p id="report-age"></p><p class="context-limitation">These file contents are not independently verified. A report is a snapshot, not a current iPhone scan.</p></div>
+        <section id="suggestion" class="suggestion" aria-labelledby="suggestion-heading"></section>
+        <div class="network-list-heading"><h3>Wi-Fi in this report <span id="network-count" class="count-pill"></span></h3><p>Exact matching names are grouped together.</p></div><div id="network-list"></div>
+        <details class="report-technical"><summary>Report source and limitations</summary><dl id="report-metadata"></dl><ul id="report-limitations"></ul></details>
+      </section>
+      <section class="joining-panel"><p class="eyebrow">You stay in control</p><h2>Before you join.</h2><p>Confirm the Wi-Fi name and sign-in instructions with staff. A familiar name or advertised encryption does not verify who runs it.</p><details id="join-guide"><summary>How to join on iPhone</summary><ol><li>Open your iPhone’s <strong>Settings</strong>, then <strong>Wi-Fi</strong>.</li><li>Choose the exact network the venue confirmed you can use.</li><li>Follow the venue’s password or sign-in instructions. Stop if something does not match what you were told.</li></ol><p>This companion cannot select or join a network for you. When unsure, use your own mobile connection or hotspot.</p></details></section>
+      <details class="install-panel"><summary>Keep this companion on your Home Screen</summary><p>When this page is served over HTTPS, open it in Safari, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>. Open it once online so the app shell can be available offline.</p><p id="offline-status">The app shell can be cached. Imported reports are never cached.</p><p>Your hosting provider may ask you to sign in before opening this companion. Reports are read on your device.</p></details>
+    </main>
+    <footer><strong>WiFi Scout</strong><p>Local report reading · You choose when to connect</p><a href="README.md">About this companion</a></footer>
+  </div>
+</body>
+</html>

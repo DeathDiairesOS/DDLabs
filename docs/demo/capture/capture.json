@@ -1,0 +1,126 @@
+{
+  "source": "Real dashboard and API with unchanged bundled fictional demo observations",
+  "recording": "dashboard-demo.webm",
+  "viewport": {
+    "width": 1280,
+    "height": 800
+  },
+  "timing_basis": "Approximate seconds in the recorded WebM, aligned to measured media duration; allow a few 25 fps frames of timing tolerance",
+  "requires_persistent_demo_overlay": true,
+  "note": "The original demo badge scrolls out of view. An edited video must keep a synthetic-demo label visible.",
+  "scenes": [
+    {
+      "id": "open",
+      "start": 0.595,
+      "caption": "Start with WiFi Scout. Your observations stay on your device.",
+      "screenshots": [
+        "01-open.png"
+      ],
+      "end": 2.464,
+      "title": "Start with WiFi Scout. Your observations stay on your device.",
+      "screenshot": "01-open.png"
+    },
+    {
+      "id": "airport_setup",
+      "start": 2.464,
+      "caption": "Enter the venue’s Wi-Fi name. Confirm you are allowed to use it.",
+      "screenshots": [
+        "02-airport-setup.png"
+      ],
+      "end": 4.655,
+      "title": "Enter the venue’s Wi-Fi name. Confirm you are allowed to use it.",
+      "screenshot": "02-airport-setup.png"
+    },
+    {
+      "id": "airport_warning",
+      "start": 4.655,
+      "caption": "A familiar name can hide different settings. Read the warning before joining.",
+      "screenshots": [
+        "03-airport-warning.png"
+      ],
+      "end": 8.42,
+      "title": "A familiar name can hide different settings. Read the warning before joining.",
+      "screenshot": "03-airport-warning.png"
+    },
+    {
+      "id": "airport_card",
+      "start": 8.42,
+      "caption": "Plain-language concerns come first. Technical details are one click away.",
+      "screenshots": [
+        "04-airport-card.png"
+      ],
+      "end": 11.054,
+      "title": "Plain-language concerns come first. Technical details are one click away.",
+      "screenshot": "04-airport-card.png"
+    },
+    {
+      "id": "airport_details",
+      "start": 11.054,
+      "caption": "Open the evidence: the same Wi-Fi name advertises conflicting protection.",
+      "screenshots": [
+        "05-airport-details.png",
+        "06-airport-conflict-evidence.png"
+      ],
+      "end": 17.739,
+      "title": "Open the evidence: the same Wi-Fi name advertises conflicting protection.",
+      "screenshot": "06-airport-conflict-evidence.png"
+    },
+    {
+      "id": "cafe_setup",
+      "start": 17.739,
+      "caption": "Ask café staff for the Wi-Fi name and sign-in details, then compare again.",
+      "screenshots": [
+        "07-cafe-setup.png"
+      ],
+      "end": 19.918,
+      "title": "Ask café staff for the Wi-Fi name and sign-in details, then compare again.",
+      "screenshot": "07-cafe-setup.png"
+    },
+    {
+      "id": "cafe_result",
+      "start": 19.918,
+      "caption": "See the best observed candidate among the Wi-Fi you said you can use.",
+      "screenshots": [
+        "08-cafe-recommendation.png"
+      ],
+      "end": 23.659,
+      "title": "See the best observed candidate among the Wi-Fi you said you can use.",
+      "screenshot": "08-cafe-recommendation.png"
+    },
+    {
+      "id": "cafe_details",
+      "start": 23.659,
+      "caption": "Understand the reasons and limits. You decide whether to connect.",
+      "screenshots": [
+        "09-cafe-reasoning.png"
+      ],
+      "end": 27.213,
+      "title": "Understand the reasons and limits. You decide whether to connect.",
+      "screenshot": "09-cafe-reasoning.png"
+    },
+    {
+      "id": "cafe_technical",
+      "start": 27.213,
+      "caption": "Curious? Expand the individual access-point observations.",
+      "screenshots": [
+        "10-cafe-technical.png"
+      ],
+      "end": 29.28,
+      "title": "Curious? Expand the individual access-point observations.",
+      "screenshot": "10-cafe-technical.png"
+    }
+  ],
+  "assertions": {
+    "airport_recommendation": "Cannot confidently recommend",
+    "airport_conflicting_protection": true,
+    "cafe_recommendation": "Best observed candidate",
+    "cafe_candidate": "Juniper Café",
+    "permission_reset_when_name_changes": true,
+    "all_requests_local": true,
+    "browser_errors": [],
+    "scan_count": 2
+  },
+  "video": "dashboard-demo.webm",
+  "duration": 29.28,
+  "recorder_startup_offset_seconds": 0.255
+}

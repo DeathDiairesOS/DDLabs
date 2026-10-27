@@ -1,0 +1,7 @@
+include LICENSE README.md CONTRIBUTING.md SECURITY.md
+recursive-include docs *.md *.png
+recursive-include src/wifi_scout/static *.html *.css *.js
+recursive-include src/wifi_scout/fixtures *.json
+recursive-include tests *.py
+recursive-include .github/workflows *.yml
+include tests/fixtures/synthetic-management.pcap

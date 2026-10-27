@@ -1,0 +1,53 @@
+{
+  "platform": "Android 10 / API 29 AOSP x86_64 emulator",
+  "emulator_version": "37.2.12",
+  "hardware_acceleration": false,
+  "physical_radio_validation": false,
+  "apk_version": "0.1.0-alpha",
+  "apk_sha256": "8839d71095cfc75becdd6115bc46e0c956b47e8aa0f528871094f6b6bd8636fb",
+  "scope": "Native Android UI and report-export smoke checks on an API 29 AOSP software emulator. The networks are fictional demo observations. Physical radios, OEM drivers, crowded environments, Android 12+ approximate permission and Android 15+ behavior remain untested.",
+  "checks": {
+    "apk_installs": true,
+    "native_home_launches": true,
+    "demo_without_location_permissions": true,
+    "juniper_requires_explicit_allow_before_recommendation": true,
+    "demo_candidate_has_reasons_and_unconfirmed_identity": true,
+    "demo_connection_action_disabled": true,
+    "share_report_disclosure_labels_demo_and_iphone_limits": true,
+    "share_report_writes_valid_v1_json": true,
+    "export_preserves_demo_label_and_juniper_candidate": true,
+    "android_action_chooser_launched": true,
+    "share_handoff_dismissed_without_external_send": true,
+    "returns_to_native_app_after_dismissal": true
+  },
+  "share_handoff": {
+    "observation": "Android launched ACTION_CHOOSER. This minimal AOSP image has one matching JSON share target, Email, and automatically opened its unconfigured account-setup screen. Back dismissed it and returned to WiFi Scout. No account was configured, recipient chosen, or message sent.",
+    "visible_multi_target_chooser_verified": false,
+    "external_send_performed": false,
+    "export_bytes": 7529,
+    "export_sha256": "4d65d153d1de67f6d4b2675eb26bdac91268ca95fc8f0d478935282f66d31a19",
+    "report_schema": "wifi-scout-phone-report",
+    "schema_version": 1,
+    "mode": "demo",
+    "candidate_ssid": "Juniper Café"
+  },
+  "screenshots": [
+    "screenshots/android-home.png",
+    "screenshots/android-candidate.png",
+    "screenshots/android-share-confirmation.png"
+  ],
+  "supplemental_prior_build_validation": {
+    "apk_sha256": "3ec31a97f0018b622a245b370a1e25c38b4112a28032250e8e83bc13d9d64885",
+    "scope": "Earlier build before the report-export enhancement; these checks were not repeated on the final export build.",
+    "checks": {
+      "airport_technical_details_expand": true,
+      "android_permission_prompt_visible_on_explicit_scan": true,
+      "permission_denial_explained": true,
+      "permission_denial_leaves_empty_live_result_without_demo_fallback": true
+    },
+    "screenshots": [
+      "screenshots/android-details.png",
+      "screenshots/android-permission-denied.png"
+    ]
+  }
+}

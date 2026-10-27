@@ -1,0 +1,25 @@
+{
+  "package": "org.wifiscout.app",
+  "version": "0.1.0-alpha",
+  "min_android_api": 29,
+  "target_android_api": 35,
+  "build_type": "debug",
+  "apk_bytes": 149438,
+  "apk_sha256": "8839d71095cfc75becdd6115bc46e0c956b47e8aa0f528871094f6b6bd8636fb",
+  "unit_tests": {
+    "tests": 40,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint_issues": 0,
+  "physical_phone_validation": false,
+  "radio_driver_validation": false,
+  "limitations": [
+    "Native Android scanning; separate iPhone imported-report web companion",
+    "No normal phone deauthentication/management-frame capture",
+    "No operator authentication",
+    "Physical device and real reception remain untested"
+  ],
+  "emulator_report": "emulator-validation.json if present"
+}

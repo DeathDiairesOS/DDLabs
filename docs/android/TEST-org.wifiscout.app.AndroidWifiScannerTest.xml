@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wifiscout.app.AndroidWifiScannerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-27T09:16:03" hostname="588c09a1ec04" time="0.006">
+  <properties/>
+  <testcase name="missingAndFutureTimesRemainUnknown" classname="org.wifiscout.app.AndroidWifiScannerTest" time="0.005"/>
+  <testcase name="ceilingCalculationDoesNotOverflowOnLargeValidElapsedValues" classname="org.wifiscout.app.AndroidWifiScannerTest" time="0.0"/>
+  <testcase name="oneMicrosecondPastFreshnessLimitCannotRoundBackIntoEligibility" classname="org.wifiscout.app.AndroidWifiScannerTest" time="0.0"/>
+  <testcase name="microsecondsBecomeMillisecondsWithoutTreatingThemAsUnixTime" classname="org.wifiscout.app.AndroidWifiScannerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mode_on_phone">ON YOUR PHONE · STAYS ON YOUR PHONE</string>
+    <string name="mode_demo">DEMO · FICTIONAL WI-FI</string>
+    <string name="scan_button">Scan nearby Wi-Fi</string>
+    <string name="scanning">Scanning…</string>
+    <string name="allow_network">I can use this network</string>
+    <string name="scan_help_permissions">Scan help &amp; permissions</string>
+    <string name="phone_check_limitations">What this phone can check</string>
+    <string name="technical_details">Technical details</string>
+    <string name="disclosure_collapsed">▸ %1$s</string>
+    <string name="disclosure_expanded">▾ %1$s</string>
+    <string name="disclosure_accessibility_collapsed">%1$s, collapsed</string>
+    <string name="disclosure_accessibility_expanded">%1$s, expanded</string>
+    <string name="network_details_collapsed">Technical details for %1$s, collapsed</string>
+    <string name="network_details_expanded">Technical details for %1$s, expanded</string>
+    <string name="share_report">Share report</string>
+    <string name="share_report_hint">Open the saved report in the iPhone companion. Reports show earlier observations; the companion cannot scan nearby Wi-Fi.</string>
+    <string name="share_report_title">Share these Wi-Fi observations?</string>
+    <string name="share_live_disclosure">The report includes nearby Wi-Fi names, access-point addresses, timestamps, observed settings and the networks you said you can use. These can reveal where you have been. It contains no passwords. A copy is kept temporarily in this app’s private cache. Only share it with a destination you choose. Imported reports are historical observations, not a live iPhone scan or proof of trust.</string>
+    <string name="share_demo_disclosure">This report contains fictional demo networks and is labeled as a demo. It includes their names, example access-point addresses and settings, with no real observations or passwords. A copy is kept temporarily in this app’s private cache. Choose where to share it; it does not enable Wi-Fi scanning on an iPhone.</string>
+    <string name="share_report_confirm">Choose where to share</string>
+    <string name="share_report_chooser">Share WiFi Scout report</string>
+    <string name="shared_report_name">WiFi Scout report</string>
+    <string name="share_report_failed">The report could not be prepared. Nothing was sent. Please try again.</string>
+    <string name="share_chooser_unavailable">Android could not open a share destination. Nothing was sent.</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wifiscout.app.core.ScoutEngineTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-10-27T09:16:03" hostname="588c09a1ec04" time="0.017">
+  <properties/>
+  <testcase name="noAuthorizationMeansNoRecommendation" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="authorizedBetterProtectionWinsBeforeSignalTier" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.001"/>
+  <testcase name="explicitDemoExercisesBothRecommendationOutcomes" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.002"/>
+  <testcase name="observationAgeBoundaryAndUnknownTimingAreRespected" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="redactedOrMissingAddressesCannotRecommend" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.001"/>
+  <testcase name="androidPskSha256SpellingRemainsRecognized" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.005"/>
+  <testcase name="resultsDoNotRetainMutableInputs" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.001"/>
+  <testcase name="saeAndPskTransitionAreNotMistakenForWpa3Only" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="enterpriseAndSuiteBRemainDistinct" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="channelsHandleSpecialCasesWithoutInventingUnknownValues" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="knownAuthenticationConflictAlsoBlocks" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="exactNamesRemainSeparateAndHiddenNamesNeverMerge" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="hostileNamesAreDataAndControlsAreEscapedOnlyForDisplay" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="strongerPrivateNetworkIsNotAJoinCandidate" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="oldApDoesNotBeatCurrentAp" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="fastTransitionUsesItsBaseAuthentication" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="sameNameDifferentProtectionBlocksBothCandidates" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.002"/>
+  <testcase name="staleBatchCannotRecommendEvenWhenPerApAgeIsYoung" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="weakAndUnavailableSignalCannotRecommend" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.001"/>
+  <testcase name="malformedProtectedMetadataDoesNotBecomeUsable" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="missingAndUnknownSecurityNeverBecomeOpen" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="explicitInfrastructureWithoutSecurityIsOpen" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="oweTransitionDoesNotHideOpenPossibility" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="equivalentSignalTierUsesStableAddressRatherThanRawDbm" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.001"/>
+  <testcase name="unknownNeighborIsNotAssumedToConflict" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <testcase name="legacyIncludingMixedCipherAdvertisementsIsExcluded" classname="org.wifiscout.app.core.ScoutEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,71 @@
+{
+  "source": "demo",
+  "mode": "demo",
+  "observed_at": "2026-01-15T10:30:00+00:00",
+  "limitations": [
+    "Fictional access points with locally administered BSSIDs illustrate different backend capabilities.",
+    "Normal NetworkManager discovery may transmit probe requests. Advanced examples represent passive monitor-mode observations."
+  ],
+  "networks": [
+    {
+      "ssid": "Juniper Café", "bssid": "02:11:22:33:44:01", "signal_percent": 84,
+      "channel": 36, "frequency_mhz": 5180, "band": "5 GHz", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00",
+      "security": {"protocols": ["WPA2"], "authentication": ["PSK"], "raw": "WPA2"}
+    },
+    {
+      "ssid": "Juniper Café", "bssid": "02:11:22:33:44:02", "signal_percent": 58,
+      "channel": 6, "frequency_mhz": 2437, "band": "2.4 GHz", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00",
+      "security": {"protocols": ["WPA2"], "authentication": ["PSK"], "raw": "WPA2"}
+    },
+    {
+      "ssid": "Airport Guest", "bssid": "02:aa:00:00:00:01", "signal_percent": 76,
+      "channel": 11, "frequency_mhz": 2462, "band": "2.4 GHz", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00",
+      "security": {"protocols": ["WPA2"], "authentication": ["PSK"], "raw": "WPA2"}
+    },
+    {
+      "ssid": "Airport Guest", "bssid": "02:aa:00:00:00:02", "signal_percent": 96,
+      "channel": 1, "frequency_mhz": 2412, "band": "2.4 GHz", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00",
+      "security": {"protocols": ["OPEN"], "authentication": ["NONE"], "raw": "--"}
+    },
+    {
+      "ssid": "Library Enhanced Open", "bssid": "02:bb:00:00:00:01", "signal_dbm": -56,
+      "channel": 44, "frequency_mhz": 5220, "band": "5 GHz", "source": "tshark",
+      "observed_at": "2026-01-15T10:30:00+00:00", "deauth_count": 0, "capture_seconds": 15,
+      "security": {"protocols": ["OWE"], "authentication": ["OWE"], "pairwise_ciphers": ["CCMP"], "pmf_capable": true, "pmf_required": true}
+    },
+    {
+      "ssid": "Hotel Lobby", "bssid": "02:cc:00:00:00:01", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00", "security": {}
+    },
+    {
+      "ssid": "Old Printer", "bssid": "02:dd:00:00:00:01", "signal_percent": 45,
+      "channel": 6, "frequency_mhz": 2437, "band": "2.4 GHz", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00", "security": {"protocols": ["WEP"], "raw": "WEP"}
+    },
+    {
+      "ssid": "Station Wi-Fi", "bssid": "02:ee:00:00:00:01", "signal_dbm": -48,
+      "channel": 149, "frequency_mhz": 5745, "band": "5 GHz", "source": "tshark",
+      "observed_at": "2026-01-15T10:30:00+00:00", "deauth_count": 90, "capture_seconds": 15,
+      "security": {"protocols": ["WPA2"], "authentication": ["PSK"], "pairwise_ciphers": ["CCMP"], "pmf_capable": true, "pmf_required": false}
+    },
+    {
+      "ssid": "Apartment 4B", "bssid": "02:ff:00:00:00:01", "signal_percent": 99,
+      "channel": 5, "frequency_mhz": 5975, "band": "6 GHz", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00", "security": {"protocols": ["WPA3"], "authentication": ["SAE"], "raw": "WPA3"}
+    },
+    {
+      "ssid": null, "bssid": "02:12:00:00:00:01", "signal_percent": 32,
+      "channel": 11, "frequency_mhz": 2462, "band": "2.4 GHz", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00", "security": {"protocols": ["WPA2"], "raw": "WPA2"}
+    },
+    {
+      "ssid": "<img src=x onerror=alert(1)>\u001b[2J\nFake result", "bssid": "02:13:00:00:00:01", "signal_percent": 22,
+      "channel": 1, "frequency_mhz": 2412, "band": "2.4 GHz", "source": "nmcli",
+      "observed_at": "2026-01-15T10:30:00+00:00", "security": {"protocols": ["OPEN"], "raw": "--"}
+    }
+  ]
+}

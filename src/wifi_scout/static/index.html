@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Understand nearby Wi-Fi before you connect. Simple explanations, with the details there when you want them.">
+  <title>WiFi Scout · Before you connect</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <a href="/" class="brand" aria-label="WiFi Scout home"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M5 12.3a17.7 17.7 0 0 1 22 0M9 17.3a11.4 11.4 0 0 1 14 0M13 22.1a5 5 0 0 1 6 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="26" r="1.4" fill="currentColor"/></svg><span>WiFi <strong>Scout</strong></span></a>
+      <div class="topbar-meta"><span class="privacy-label"><span class="status-dot" aria-hidden="true"></span> Stays on your device</span><span id="mode-badge" class="mode-badge">Opening local app</span></div>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div><p class="eyebrow">A little help before you connect</p><h1 id="hero-heading">Make sense of nearby Wi-Fi.</h1><p class="hero-description">See your options, understand the concerns, and know what to ask before joining.</p></div>
+        <div class="hero-note"><span class="note-symbol" aria-hidden="true">i</span><p><strong>You stay in control.</strong><br>We look at nearby Wi-Fi.<br>You decide whether to connect.</p></div>
+      </section>
+      <div id="mode-notice" class="notice mode-notice" hidden></div>
+      <section class="scan-panel" aria-labelledby="scan-heading">
+        <div class="scan-heading-row"><div><p class="eyebrow">Start here</p><h2 id="scan-heading">What’s the venue’s Wi-Fi called?</h2></div><span class="local-tag">No account needed</span></div>
+        <form id="scan-form">
+          <div class="scan-input-row">
+            <div class="venue-field"><label for="venue-ssid">Wi-Fi name from the venue <span class="optional">Optional</span></label><input id="venue-ssid" name="venue_ssid" type="text" autocomplete="off" maxlength="128" placeholder="The name on the café’s sign" aria-describedby="venue-help"><p id="venue-help" class="field-help">Ask staff or check the sign. A matching name alone doesn’t prove it belongs to the venue.</p></div>
+            <button class="primary-button" id="scan-button" type="submit" disabled><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 7a11 11 0 0 1 14 0M6 11a6 6 0 0 1 8 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="10" cy="15" r="1.4" fill="currentColor"/></svg><span id="scan-button-label">Scan nearby Wi-Fi</span><span class="button-arrow" aria-hidden="true">→</span></button>
+          </div>
+          <label class="checkbox-label eligibility-label"><input id="authorized" type="checkbox" disabled><span>I’m allowed to use this Wi-Fi and have the password or sign-in details if needed.<small>We’ll only suggest a network you’ve confirmed you can use.</small></span></label>
+          <details class="history-settings"><summary>Remember a visit <span class="summary-note">Optional · off by default</span></summary><div class="history-body"><p>Save the Wi-Fi details on this device to notice changes next time. Saved names and network addresses can reveal places you’ve visited.</p><label class="checkbox-label"><input id="use-history" type="checkbox"><span>Compare with my saved visit</span></label><label class="checkbox-label"><input id="save-history" type="checkbox"><span>Save this visit for next time</span></label><div class="history-footer"><p id="history-status" class="field-help">History stays on this device.</p><button type="button" class="text-button" id="delete-history">Delete saved visit</button></div></div></details>
+        </form>
+        <p class="scan-disclosure" id="scan-disclosure">Your device may send Wi-Fi discovery requests. WiFi Scout never joins a network for you.</p>
+      </section>
+      <div id="app-status" role="status" class="sr-only" aria-live="polite"></div>
+      <div id="error-notice" class="notice error-notice" role="alert" hidden></div>
+      <section id="empty-state" class="empty-state" aria-labelledby="empty-heading"><div class="scan-illustration" aria-hidden="true"><span class="radar-ring ring-outer"></span><span class="radar-ring ring-inner"></span><span class="radar-dot"></span><span class="radar-center"></span></div><div><h2 id="empty-heading">Your options will appear here.</h2><p>Start a scan. We’ll explain what we find in everyday language.<br>Curious about the technical details? You can open them any time.</p></div></section>
+      <section id="results" aria-labelledby="results-heading" hidden>
+        <div class="results-header"><div><p class="eyebrow" id="results-eyebrow">Your latest scan</p><h2 id="results-heading">Here’s what we found.</h2></div><p id="scan-meta" class="scan-meta"></p></div>
+        <section class="recommendation" id="recommendation" aria-label="Recommendation"></section>
+        <div class="network-list-heading"><h3>Nearby Wi-Fi <span id="network-count" class="count-pill">0</span></h3><p>Networks with the same name are shown together.</p></div>
+        <div id="network-list" class="network-list"></div>
+        <section class="limitations-panel" aria-labelledby="limitations-heading"><div class="limits-intro"><span class="note-symbol" aria-hidden="true">i</span><div><h3 id="limitations-heading">A useful clue, not a guarantee.</h3><p>A scan can’t confirm who runs a network, check its login page, or measure internet speed. Missing details don’t mean something is wrong.</p></div></div><details class="scan-details"><summary>What this scan can and can’t tell you</summary><ul id="limitations-list"></ul></details></section>
+      </section>
+    </main>
+    <footer class="footer"><div class="footer-brand">WiFi Scout <span>A little more context. Your choice.</span></div><p>No accounts · No cloud · No automatic connections</p></footer>
+  </div>
+</body>
+</html>

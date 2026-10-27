@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "physical_iphone_tested": false,
+  "installed_safari_pwa_tested": false,
+  "live_radio_validation": false,
+  "browser_results": [
+    {
+      "browser_engine": "chromium",
+      "browser_version": "154.0.8037.57",
+      "tested_at_utc": "2026-10-27T09:21:46.926036+00:00",
+      "physical_iphone_tested": false,
+      "native_ios_scanning_claimed": false,
+      "android_export_integration": true,
+      "android_report_sha256": "4d65d153d1de67f6d4b2675eb26bdac91268ca95fc8f0d478935282f66d31a19",
+      "synthetic_tshark_capture_integration": true,
+      "capture_report_sha256": "7e7577b54654621c5d14ac01573008331b684ee72bbec38b48992c02233383ab",
+      "actual_desktop_report": "docs/demo/capture/cafe-report.json",
+      "offline_shell_checked": true,
+      "checks_passed": [
+        "No invented scan or report on launch",
+        "Actual desktop JSON file import, historical suggestion, demo/source labels, keyboard details",
+        "Actual desktop conflict report does not acquire a candidate",
+        "Actual TShark synthetic-capture analysis imports as a recorded snapshot",
+        "Actual Android exporter JSON paste import and group preservation",
+        "Live-labeled input remains historical; future/unknown ages are explicit; inconsistent freshness/version rejected",
+        "Hostile names are text, never HTML/script or external requests",
+        "Malformed/unsupported/oversize imports show errors and remove earlier suggestions",
+        "Explicit fictional demo and manual iPhone Settings joining guidance",
+        "320/390/768px layouts and actual 150% text scaling fit",
+        "Clear report removes the suggestion, observations and pasted contents",
+        "Offline app-shell reload works; imported reports are not retained or cached"
+      ],
+      "browser_errors": [],
+      "external_requests": false
+    },
+    {
+      "browser_engine": "webkit",
+      "browser_version": "26.5",
+      "tested_at_utc": "2026-10-27T09:21:47.365193+00:00",
+      "physical_iphone_tested": false,
+      "native_ios_scanning_claimed": false,
+      "android_export_integration": true,
+      "android_report_sha256": "4d65d153d1de67f6d4b2675eb26bdac91268ca95fc8f0d478935282f66d31a19",
+      "synthetic_tshark_capture_integration": true,
+      "capture_report_sha256": "7e7577b54654621c5d14ac01573008331b684ee72bbec38b48992c02233383ab",
+      "actual_desktop_report": "docs/demo/capture/cafe-report.json",
+      "offline_shell_checked": true,
+      "checks_passed": [
+        "No invented scan or report on launch",
+        "Actual desktop JSON file import, historical suggestion, demo/source labels, keyboard details",
+        "Actual desktop conflict report does not acquire a candidate",
+        "Actual TShark synthetic-capture analysis imports as a recorded snapshot",
+        "Actual Android exporter JSON paste import and group preservation",
+        "Live-labeled input remains historical; future/unknown ages are explicit; inconsistent freshness/version rejected",
+        "Hostile names are text, never HTML/script or external requests",
+        "Malformed/unsupported/oversize imports show errors and remove earlier suggestions",
+        "Explicit fictional demo and manual iPhone Settings joining guidance",
+        "320/390/768px layouts and actual 150% text scaling fit",
+        "Clear report removes the suggestion, observations and pasted contents",
+        "Offline app-shell reload works; imported reports are not retained or cached"
+      ],
+      "browser_errors": [],
+      "external_requests": false
+    }
+  ],
+  "app_assets_sha256": {
+    "iphone/app.js": "b0546c79ab91683ecb92f6ada9d01d6a6a34215de461c79ca57f1cbbbe58e1d3",
+    "iphone/icon-192.png": "5fac2a887bb62dd0749a6000cda9067d1011d2679091decf3a78b66f5c71f913",
+    "iphone/icon-512.png": "c0b4d64bdda3ea2019e07d03101883367237b97875bc77ce1d3ab09e6b7e14a5",
+    "iphone/icon.svg": "c9ee5298f0df3b8128026b036051ad9a5ff9dec171ae52caa2ef209f7dbbd32b",
+    "iphone/index.html": "e23bf058de8d43e5d92c70d5f4849d0d64d28343bf46fc2d596ee5d57d99a279",
+    "iphone/manifest.webmanifest": "f2bae20bdb3a745e9ca1c722343ad291e11acbf6974e3ddfc599a2ba6f7240a8",
+    "iphone/style.css": "c62f1232f78445f132971dcabb5cadd5988b17bfb97da44c2dfdb4c30291d251",
+    "iphone/sw.js": "e28aa860b91a13b5bc52e13efaec5481a829230ab07ab32254a949596d23995b"
+  },
+  "test_method": "Local companion served over loopback to real Chromium and Playwright WebKit engines. Offline verification stops and closes the HTTP server, then reloads the service-worker-controlled page. Browser tests do not establish physical iPhone Safari or installed PWA behavior.",
+  "android_fixture_provenance": "Exact fictional JSON produced by the final native Android APK in an API29 software emulator: Juniper Caf\u00e9 explicitly allowed, Share report tapped, sharing disclosure confirmed. The local exported JSON was retrieved without sending it externally, preserved verbatim as tests/fixtures/android-demo-report.json, then imported through the actual browser UI. This validates report interchange, not a radio scan or physical iPhone file transfer.",
+  "desktop_capture_provenance": "Production Python CLI plus real TShark parsed tests/fixtures/synthetic-management.pcap. The management frames are synthetic; no live radio capture.",
+  "limitations": [
+    "No physical iPhone or Safari installation tested.",
+    "No real-world radio, driver, crowded venue or malicious-network detection accuracy established.",
+    "WebKit Playwright network-offline emulation returned an internal navigation error; actual local HTTP-server shutdown verified shell offline behavior."
+  ],
+  "android_fixture": {
+    "path": "tests/fixtures/android-demo-report.json",
+    "sha256": "4d65d153d1de67f6d4b2675eb26bdac91268ca95fc8f0d478935282f66d31a19",
+    "mode": "demo",
+    "physical_radio_observations": false
+  },
+  "reproduce": {
+    "default_chromium": "python tests/iphone_browser_smoke.py --screenshots",
+    "webkit": "python tests/iphone_browser_smoke.py --browser webkit --screenshots",
+    "optional_capture": "wifi-scout scan --capture tests/fixtures/synthetic-management.pcap --json > /tmp/wifi-scout-desktop-capture.json; python tests/iphone_browser_smoke.py --capture-report /tmp/wifi-scout-desktop-capture.json",
+    "dependencies": "Python Playwright with Chromium and/or WebKit installed; TShark for optional capture integration."
+  }
+}

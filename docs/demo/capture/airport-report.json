@@ -1,0 +1,1067 @@
+{
+  "scan": {
+    "source": "demo",
+    "mode": "demo",
+    "networks": [
+      {
+        "ssid": "Juniper Caf\u00e9",
+        "bssid": "02:11:22:33:44:01",
+        "signal_percent": 84,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 36,
+        "frequency_mhz": 5180,
+        "band": "5 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": [
+            "PSK"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA2"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      {
+        "ssid": "Juniper Caf\u00e9",
+        "bssid": "02:11:22:33:44:02",
+        "signal_percent": 58,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 6,
+        "frequency_mhz": 2437,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": [
+            "PSK"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA2"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      {
+        "ssid": "Airport Guest",
+        "bssid": "02:aa:00:00:00:01",
+        "signal_percent": 76,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 11,
+        "frequency_mhz": 2462,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": [
+            "PSK"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA2"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      {
+        "ssid": "Airport Guest",
+        "bssid": "02:aa:00:00:00:02",
+        "signal_percent": 96,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 1,
+        "frequency_mhz": 2412,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "OPEN"
+          ],
+          "authentication": [
+            "NONE"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "--"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      {
+        "ssid": "Library Enhanced Open",
+        "bssid": "02:bb:00:00:00:01",
+        "signal_percent": null,
+        "signal_dbm": -56,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 44,
+        "frequency_mhz": 5220,
+        "band": "5 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "tshark",
+        "security": {
+          "protocols": [
+            "OWE"
+          ],
+          "authentication": [
+            "OWE"
+          ],
+          "pairwise_ciphers": [
+            "CCMP"
+          ],
+          "pmf_capable": true,
+          "pmf_required": true,
+          "raw": null
+        },
+        "deauth_count": 0,
+        "deauth_peak_10s": null,
+        "capture_seconds": 15
+      },
+      {
+        "ssid": "Hotel Lobby",
+        "bssid": "02:cc:00:00:00:01",
+        "signal_percent": null,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": null,
+        "frequency_mhz": null,
+        "band": null,
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": null,
+          "authentication": null,
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": null
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      {
+        "ssid": "Old Printer",
+        "bssid": "02:dd:00:00:00:01",
+        "signal_percent": 45,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 6,
+        "frequency_mhz": 2437,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WEP"
+          ],
+          "authentication": null,
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WEP"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      {
+        "ssid": "Station Wi-Fi",
+        "bssid": "02:ee:00:00:00:01",
+        "signal_percent": null,
+        "signal_dbm": -48,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 149,
+        "frequency_mhz": 5745,
+        "band": "5 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "tshark",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": [
+            "PSK"
+          ],
+          "pairwise_ciphers": [
+            "CCMP"
+          ],
+          "pmf_capable": true,
+          "pmf_required": false,
+          "raw": null
+        },
+        "deauth_count": 90,
+        "deauth_peak_10s": null,
+        "capture_seconds": 15
+      },
+      {
+        "ssid": "Apartment 4B",
+        "bssid": "02:ff:00:00:00:01",
+        "signal_percent": 99,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 5,
+        "frequency_mhz": 5975,
+        "band": "6 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA3"
+          ],
+          "authentication": [
+            "SAE"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA3"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      {
+        "ssid": null,
+        "bssid": "02:12:00:00:00:01",
+        "signal_percent": 32,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 11,
+        "frequency_mhz": 2462,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": null,
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA2"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      {
+        "ssid": "<img src=x onerror=alert(1)>\u001b[2J\nFake result",
+        "bssid": "02:13:00:00:00:01",
+        "signal_percent": 22,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 1,
+        "frequency_mhz": 2412,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "OPEN"
+          ],
+          "authentication": null,
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "--"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      }
+    ],
+    "observed_at": "2026-01-15T10:30:00+00:00",
+    "limitations": [
+      "Fictional access points with locally administered BSSIDs illustrate different backend capabilities.",
+      "Normal NetworkManager discovery may transmit probe requests. Advanced examples represent passive monitor-mode observations."
+    ],
+    "capture_seconds": null
+  },
+  "assessments": [
+    {
+      "network": {
+        "ssid": "Juniper Caf\u00e9",
+        "bssid": "02:11:22:33:44:01",
+        "signal_percent": 84,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 36,
+        "frequency_mhz": 5180,
+        "band": "5 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": [
+            "PSK"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA2"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "WPA2 advertised",
+      "connection_quality": "Strong signal",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Modern wireless protection advertised",
+          "explanation": "WPA2/WPA3 advertise wireless-link protection. They do not establish operator trust or prove that the advertised configuration will be negotiated by your device.",
+          "evidence": {
+            "protocols": [
+              "WPA2"
+            ],
+            "authentication": [
+              "PSK"
+            ]
+          }
+        },
+        {
+          "id": "MULTIPLE_ACCESS_POINTS",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Multiple access points share this name",
+          "explanation": "This is normal for enterprise, hotel, and mesh Wi-Fi. Multiple BSSIDs alone are not evidence of an attack; unobserved security fields remain unknown.",
+          "evidence": {
+            "bssids": [
+              "02:11:22:33:44:01",
+              "02:11:22:33:44:02"
+            ]
+          }
+        }
+      ],
+      "missing_information": [
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    },
+    {
+      "network": {
+        "ssid": "Juniper Caf\u00e9",
+        "bssid": "02:11:22:33:44:02",
+        "signal_percent": 58,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 6,
+        "frequency_mhz": 2437,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": [
+            "PSK"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA2"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "WPA2 advertised",
+      "connection_quality": "Moderate signal",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Modern wireless protection advertised",
+          "explanation": "WPA2/WPA3 advertise wireless-link protection. They do not establish operator trust or prove that the advertised configuration will be negotiated by your device.",
+          "evidence": {
+            "protocols": [
+              "WPA2"
+            ],
+            "authentication": [
+              "PSK"
+            ]
+          }
+        },
+        {
+          "id": "MULTIPLE_ACCESS_POINTS",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Multiple access points share this name",
+          "explanation": "This is normal for enterprise, hotel, and mesh Wi-Fi. Multiple BSSIDs alone are not evidence of an attack; unobserved security fields remain unknown.",
+          "evidence": {
+            "bssids": [
+              "02:11:22:33:44:01",
+              "02:11:22:33:44:02"
+            ]
+          }
+        }
+      ],
+      "missing_information": [
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    },
+    {
+      "network": {
+        "ssid": "Airport Guest",
+        "bssid": "02:aa:00:00:00:01",
+        "signal_percent": 76,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 11,
+        "frequency_mhz": 2462,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": [
+            "PSK"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA2"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "WPA2 advertised",
+      "connection_quality": "Strong signal",
+      "identity_confidence": "Name matches; identity unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Modern wireless protection advertised",
+          "explanation": "WPA2/WPA3 advertise wireless-link protection. They do not establish operator trust or prove that the advertised configuration will be negotiated by your device.",
+          "evidence": {
+            "protocols": [
+              "WPA2"
+            ],
+            "authentication": [
+              "PSK"
+            ]
+          }
+        },
+        {
+          "id": "SECURITY_CONFLICT",
+          "severity": "medium",
+          "confidence": "medium",
+          "title": "Same name, different security advertisements",
+          "explanation": "Access points with this name advertise different security settings. Configuration drift, a staged upgrade, independent operators, or impersonation can explain this. Ask the venue which settings to expect; the scan cannot determine the cause.",
+          "evidence": {
+            "observed_bssid": "02:aa:00:00:00:01",
+            "protocols": [
+              "WPA2"
+            ],
+            "comparisons": [
+              {
+                "bssid": "02:aa:00:00:00:02",
+                "fields": [
+                  "protocols",
+                  "authentication"
+                ],
+                "protocols": [
+                  "OPEN"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "VENUE_NAME_MATCH",
+          "severity": "info",
+          "confidence": "low",
+          "title": "Name matches the venue name you entered",
+          "explanation": "A matching name is a useful selection clue, but it does not authenticate the access point. Nearby equipment can advertise the same name.",
+          "evidence": {
+            "exact_name_match": true
+          }
+        }
+      ],
+      "missing_information": [
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    },
+    {
+      "network": {
+        "ssid": "Airport Guest",
+        "bssid": "02:aa:00:00:00:02",
+        "signal_percent": 96,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 1,
+        "frequency_mhz": 2412,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "OPEN"
+          ],
+          "authentication": [
+            "NONE"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "--"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "Open wireless link",
+      "connection_quality": "Strong signal",
+      "identity_confidence": "Name matches; identity unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_OPEN",
+          "severity": "medium",
+          "confidence": "high",
+          "title": "No wireless-link encryption advertised",
+          "explanation": "This open network does not encrypt the radio link. HTTPS still protects correctly validated connections; unencrypted application traffic can be exposed. A sign-in portal does not itself add wireless encryption.",
+          "evidence": {
+            "protocols": [
+              "OPEN"
+            ]
+          }
+        },
+        {
+          "id": "SECURITY_CONFLICT",
+          "severity": "medium",
+          "confidence": "medium",
+          "title": "Same name, different security advertisements",
+          "explanation": "Access points with this name advertise different security settings. Configuration drift, a staged upgrade, independent operators, or impersonation can explain this. Ask the venue which settings to expect; the scan cannot determine the cause.",
+          "evidence": {
+            "observed_bssid": "02:aa:00:00:00:02",
+            "protocols": [
+              "OPEN"
+            ],
+            "comparisons": [
+              {
+                "bssid": "02:aa:00:00:00:01",
+                "fields": [
+                  "protocols",
+                  "authentication"
+                ],
+                "protocols": [
+                  "WPA2"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "VENUE_NAME_MATCH",
+          "severity": "info",
+          "confidence": "low",
+          "title": "Name matches the venue name you entered",
+          "explanation": "A matching name is a useful selection clue, but it does not authenticate the access point. Nearby equipment can advertise the same name.",
+          "evidence": {
+            "exact_name_match": true
+          }
+        }
+      ],
+      "missing_information": [
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    },
+    {
+      "network": {
+        "ssid": "Library Enhanced Open",
+        "bssid": "02:bb:00:00:00:01",
+        "signal_percent": null,
+        "signal_dbm": -56,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 44,
+        "frequency_mhz": 5220,
+        "band": "5 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "tshark",
+        "security": {
+          "protocols": [
+            "OWE"
+          ],
+          "authentication": [
+            "OWE"
+          ],
+          "pairwise_ciphers": [
+            "CCMP"
+          ],
+          "pmf_capable": true,
+          "pmf_required": true,
+          "raw": null
+        },
+        "deauth_count": 0,
+        "deauth_peak_10s": null,
+        "capture_seconds": 15
+      },
+      "wireless_security": "Enhanced Open (OWE) advertised",
+      "connection_quality": "Strong signal",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_OWE",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Enhanced Open advertised",
+          "explanation": "OWE encrypts the wireless link without a shared password. It does not authenticate the operator; an OWE advertisement alone does not confirm device compatibility.",
+          "evidence": {
+            "protocols": [
+              "OWE"
+            ]
+          }
+        },
+        {
+          "id": "PMF_REQUIRED",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Protected management frames required",
+          "explanation": "The advertisement requires protected management frames for supported connections. This does not protect every management frame or establish operator identity.",
+          "evidence": {
+            "pmf_required": true,
+            "pmf_capable": true
+          }
+        }
+      ],
+      "missing_information": []
+    },
+    {
+      "network": {
+        "ssid": "Hotel Lobby",
+        "bssid": "02:cc:00:00:00:01",
+        "signal_percent": null,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": null,
+        "frequency_mhz": null,
+        "band": null,
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": null,
+          "authentication": null,
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": null
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "Unknown",
+      "connection_quality": "Unknown",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_UNKNOWN",
+          "severity": "info",
+          "confidence": "low",
+          "title": "Security details unavailable",
+          "explanation": "The backend did not provide a recognized security configuration. Missing telemetry is not a security failure.",
+          "evidence": {
+            "protocols": null
+          }
+        }
+      ],
+      "missing_information": [
+        "Wireless security configuration is unknown or not understood by this version.",
+        "Authentication method is unavailable.",
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "Signal strength is unavailable.",
+        "Channel is unavailable.",
+        "Radio band is unavailable.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    },
+    {
+      "network": {
+        "ssid": "Old Printer",
+        "bssid": "02:dd:00:00:00:01",
+        "signal_percent": 45,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 6,
+        "frequency_mhz": 2437,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WEP"
+          ],
+          "authentication": null,
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WEP"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "Legacy encryption advertised",
+      "connection_quality": "Moderate signal",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_LEGACY",
+          "severity": "high",
+          "confidence": "high",
+          "title": "Legacy wireless protection",
+          "explanation": "WEP and original WPA are outdated. Prefer another network you are allowed to join or a personal hotspot. An advertisement does not reveal the operator's intent.",
+          "evidence": {
+            "protocols": [
+              "WEP"
+            ]
+          }
+        }
+      ],
+      "missing_information": [
+        "Authentication method is unavailable.",
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    },
+    {
+      "network": {
+        "ssid": "Station Wi-Fi",
+        "bssid": "02:ee:00:00:00:01",
+        "signal_percent": null,
+        "signal_dbm": -48,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 149,
+        "frequency_mhz": 5745,
+        "band": "5 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "tshark",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": [
+            "PSK"
+          ],
+          "pairwise_ciphers": [
+            "CCMP"
+          ],
+          "pmf_capable": true,
+          "pmf_required": false,
+          "raw": null
+        },
+        "deauth_count": 90,
+        "deauth_peak_10s": null,
+        "capture_seconds": 15
+      },
+      "wireless_security": "WPA2 advertised",
+      "connection_quality": "Strong signal",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Modern wireless protection advertised",
+          "explanation": "WPA2/WPA3 advertise wireless-link protection. They do not establish operator trust or prove that the advertised configuration will be negotiated by your device.",
+          "evidence": {
+            "protocols": [
+              "WPA2"
+            ],
+            "authentication": [
+              "PSK"
+            ]
+          }
+        },
+        {
+          "id": "DEAUTH_ACTIVITY",
+          "severity": "medium",
+          "confidence": "medium",
+          "title": "Elevated deauthentication observations",
+          "explanation": "At least 20 deauthentication frames and two per second were observed over at least ten seconds. Roaming, troubleshooting, radio faults, retransmissions, or malicious activity may explain this. Advertised addresses can be spoofed; the capture cannot identify an attacker or prove an attack.",
+          "evidence": {
+            "deauth_count": 90,
+            "capture_seconds": 15,
+            "frames_per_second": 6.0
+          }
+        }
+      ],
+      "missing_information": []
+    },
+    {
+      "network": {
+        "ssid": "Apartment 4B",
+        "bssid": "02:ff:00:00:00:01",
+        "signal_percent": 99,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 5,
+        "frequency_mhz": 5975,
+        "band": "6 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA3"
+          ],
+          "authentication": [
+            "SAE"
+          ],
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA3"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "WPA3 advertised",
+      "connection_quality": "Strong signal",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Modern wireless protection advertised",
+          "explanation": "WPA2/WPA3 advertise wireless-link protection. They do not establish operator trust or prove that the advertised configuration will be negotiated by your device.",
+          "evidence": {
+            "protocols": [
+              "WPA3"
+            ],
+            "authentication": [
+              "SAE"
+            ]
+          }
+        }
+      ],
+      "missing_information": [
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    },
+    {
+      "network": {
+        "ssid": null,
+        "bssid": "02:12:00:00:00:01",
+        "signal_percent": 32,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 11,
+        "frequency_mhz": 2462,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "WPA2"
+          ],
+          "authentication": null,
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "WPA2"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "WPA2 advertised",
+      "connection_quality": "Weak signal",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_MODERN",
+          "severity": "info",
+          "confidence": "high",
+          "title": "Modern wireless protection advertised",
+          "explanation": "WPA2/WPA3 advertise wireless-link protection. They do not establish operator trust or prove that the advertised configuration will be negotiated by your device.",
+          "evidence": {
+            "protocols": [
+              "WPA2"
+            ],
+            "authentication": null
+          }
+        }
+      ],
+      "missing_information": [
+        "Network name is hidden or unavailable.",
+        "Authentication method is unavailable.",
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    },
+    {
+      "network": {
+        "ssid": "<img src=x onerror=alert(1)>\u001b[2J\nFake result",
+        "bssid": "02:13:00:00:00:01",
+        "signal_percent": 22,
+        "signal_dbm": null,
+        "signal_samples": null,
+        "signal_min_dbm": null,
+        "signal_max_dbm": null,
+        "channel": 1,
+        "frequency_mhz": 2412,
+        "band": "2.4 GHz",
+        "observed_at": "2026-01-15T10:30:00+00:00",
+        "source": "nmcli",
+        "security": {
+          "protocols": [
+            "OPEN"
+          ],
+          "authentication": null,
+          "pairwise_ciphers": null,
+          "pmf_capable": null,
+          "pmf_required": null,
+          "raw": "--"
+        },
+        "deauth_count": null,
+        "deauth_peak_10s": null,
+        "capture_seconds": null
+      },
+      "wireless_security": "Open wireless link",
+      "connection_quality": "Weak signal",
+      "identity_confidence": "Unconfirmed",
+      "findings": [
+        {
+          "id": "SECURITY_OPEN",
+          "severity": "medium",
+          "confidence": "high",
+          "title": "No wireless-link encryption advertised",
+          "explanation": "This open network does not encrypt the radio link. HTTPS still protects correctly validated connections; unencrypted application traffic can be exposed. A sign-in portal does not itself add wireless encryption.",
+          "evidence": {
+            "protocols": [
+              "OPEN"
+            ]
+          }
+        }
+      ],
+      "missing_information": [
+        "Authentication method is unavailable.",
+        "Pairwise cipher details are unavailable.",
+        "Protected management frame capabilities are not fully observed.",
+        "No time-bounded deauthentication observation is available."
+      ]
+    }
+  ],
+  "recommendation": {
+    "status": "Cannot confidently recommend",
+    "candidate_bssid": null,
+    "candidate_ssid": null,
+    "reasons": [
+      "The eligible observations have missing security or signal information, weak reception, legacy protection, or unresolved conflicting evidence."
+    ],
+    "warnings": [
+      "A recommendation compares advertised settings and limited radio observations; it does not authenticate the network or its operator.",
+      "Ask the venue about the expected name and security settings, or use a trusted alternative such as your own hotspot."
+    ],
+    "missing_information": [
+      "Operator identity, internet performance, and client isolation are not established by this scan.",
+      "Pairwise cipher details are unavailable.",
+      "Protected management frame capabilities are not fully observed.",
+      "No time-bounded deauthentication observation is available."
+    ]
+  },
+  "limitations": [
+    "Bundled demonstration data only; these are not live observations of nearby Wi-Fi.",
+    "Fictional access points with locally administered BSSIDs illustrate different backend capabilities.",
+    "Normal NetworkManager discovery may transmit probe requests. Advanced examples represent passive monitor-mode observations.",
+    "A scan cannot authenticate an access point or establish operator trust. Names, BSSIDs, and advertised properties can be spoofed.",
+    "A short radio observation does not measure internet speed, client isolation, or the absence of attackers.",
+    "Open Wi-Fi does not automatically expose HTTPS contents. HTTPS still protects correctly validated connections; unencrypted application traffic can be exposed.",
+    "WPA2/WPA3 protect the wireless link but do not establish that the operator is trustworthy."
+  ]
+}

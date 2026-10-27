@@ -1,0 +1,76 @@
+{
+  "duration": 52.64,
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "audio": false,
+  "scenes": [
+    {
+      "id": "intro",
+      "start": 0.0,
+      "end": 5.0,
+      "caption": "At the airport, and not sure which Wi-Fi to use? Start with WiFi Scout."
+    },
+    {
+      "id": "open",
+      "start": 5.0,
+      "end": 9.0,
+      "caption": "Run WiFi Scout. Open the local dashboard."
+    },
+    {
+      "id": "airport_setup",
+      "start": 9.0,
+      "end": 14.0,
+      "caption": "Start with the venue\u2019s name. Confirm you\u2019re allowed to use it and have any needed credentials. Then scan."
+    },
+    {
+      "id": "airport_warning",
+      "start": 14.0,
+      "end": 18.0,
+      "caption": "A familiar name. Conflicting settings. WiFi Scout withholds its recommendation."
+    },
+    {
+      "id": "airport_card",
+      "start": 18.0,
+      "end": 22.0,
+      "caption": "Understand the concern. Same name. Different protection. See the warning straight away."
+    },
+    {
+      "id": "airport_details",
+      "start": 22.0,
+      "end": 28.68,
+      "caption": "Open the evidence. Compare the advertised settings behind the warning."
+    },
+    {
+      "id": "cafe_setup",
+      "start": 28.68,
+      "end": 33.68,
+      "caption": "Ask staff for another option. Confirm the caf\u00e9\u2019s Wi-Fi name and access details."
+    },
+    {
+      "id": "cafe_result",
+      "start": 33.68,
+      "end": 38.68,
+      "caption": "A clearer next step. A best observed candidate, with reasons and limits."
+    },
+    {
+      "id": "cafe_details",
+      "start": 38.68,
+      "end": 42.68,
+      "caption": "Know why it was suggested. Read the reasons. You decide whether to connect."
+    },
+    {
+      "id": "cafe_technical",
+      "start": 42.68,
+      "end": 46.64,
+      "caption": "Curious about the details? Inspect the individual access-point observations."
+    },
+    {
+      "id": "outro",
+      "start": 46.64,
+      "end": 52.64,
+      "caption": "Compare the clues. Confirm the network with staff. A scan cannot verify its operator. You decide whether to connect."
+    }
+  ],
+  "source_capture": "capture/capture.json"
+}

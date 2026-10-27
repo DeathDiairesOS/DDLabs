@@ -1,0 +1,29 @@
+{
+  "browser_engine": "webkit",
+  "browser_version": "26.5",
+  "tested_at_utc": "2026-10-27T09:21:47.365193+00:00",
+  "physical_iphone_tested": false,
+  "native_ios_scanning_claimed": false,
+  "android_export_integration": true,
+  "android_report_sha256": "4d65d153d1de67f6d4b2675eb26bdac91268ca95fc8f0d478935282f66d31a19",
+  "synthetic_tshark_capture_integration": true,
+  "capture_report_sha256": "7e7577b54654621c5d14ac01573008331b684ee72bbec38b48992c02233383ab",
+  "actual_desktop_report": "docs/demo/capture/cafe-report.json",
+  "offline_shell_checked": true,
+  "checks_passed": [
+    "No invented scan or report on launch",
+    "Actual desktop JSON file import, historical suggestion, demo/source labels, keyboard details",
+    "Actual desktop conflict report does not acquire a candidate",
+    "Actual TShark synthetic-capture analysis imports as a recorded snapshot",
+    "Actual Android exporter JSON paste import and group preservation",
+    "Live-labeled input remains historical; future/unknown ages are explicit; inconsistent freshness/version rejected",
+    "Hostile names are text, never HTML/script or external requests",
+    "Malformed/unsupported/oversize imports show errors and remove earlier suggestions",
+    "Explicit fictional demo and manual iPhone Settings joining guidance",
+    "320/390/768px layouts and actual 150% text scaling fit",
+    "Clear report removes the suggestion, observations and pasted contents",
+    "Offline app-shell reload works; imported reports are not retained or cached"
+  ],
+  "browser_errors": [],
+  "external_requests": false
+}

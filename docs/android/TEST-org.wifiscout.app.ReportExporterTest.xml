@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.wifiscout.app.ReportExporterTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-27T09:16:03" hostname="588c09a1ec04" time="0.032">
+  <properties/>
+  <testcase name="demoNeverInventsRealObservationTimestamps" classname="org.wifiscout.app.ReportExporterTest" time="0.019"/>
+  <testcase name="invalidExportTimeIsRejectedClearly" classname="org.wifiscout.app.ReportExporterTest" time="0.001"/>
+  <testcase name="exportUsesAlreadyAgedObservationsWhenReevaluating" classname="org.wifiscout.app.ReportExporterTest" time="0.005"/>
+  <testcase name="hostileUnicodeNamesRoundTripAsDataWithoutNormalization" classname="org.wifiscout.app.ReportExporterTest" time="0.001"/>
+  <testcase name="missingFieldsStayPresentAsJsonNull" classname="org.wifiscout.app.ReportExporterTest" time="0.001"/>
+  <testcase name="callerCollectionsAndObservationsAreUnchanged" classname="org.wifiscout.app.ReportExporterTest" time="0.001"/>
+  <testcase name="impossibleOldAgeCannotOverflowIntoAnInventedTimestamp" classname="org.wifiscout.app.ReportExporterTest" time="0.0"/>
+  <testcase name="liveExportIncludesVersionedSchemaAndCalculatedObservationTime" classname="org.wifiscout.app.ReportExporterTest" time="0.001"/>
+  <testcase name="staleBatchWithholdsCandidateAndPreservesSnapshotEvidence" classname="org.wifiscout.app.ReportExporterTest" time="0.001"/>
+  <testcase name="conflictsAndPermissionStateAreExportedWithExplanations" classname="org.wifiscout.app.ReportExporterTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
